@@ -8,6 +8,7 @@
 .nav-icons {
   font-size: 25px;
 }
+
 .nav-link {
   position: relative;
   transition: 0.5s;
@@ -22,7 +23,7 @@
   bottom: 0;
   left: 0;
   width: 0;
-  height: 1px;
+  height: 2px;
   transition: 0.5s;
   background-color: white;
 }
@@ -31,7 +32,7 @@
 }
 
 .nav-link:hover:before {
-  width: 100%;
+  width: 80%;
 }
 .nav-link:hover {
   color: rgb(219, 219, 219);

@@ -25,7 +25,7 @@ const Navbar = params => {
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse  " id="navbarNav">
               <ul class="navbar-nav nav-ul">
                 <li class="nav-item active">
                   <Link class="nav-link" to="">
