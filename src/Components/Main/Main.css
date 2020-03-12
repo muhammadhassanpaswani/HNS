@@ -8,12 +8,67 @@
 .bold {
   color: #fe346e;
 }
+.bold::before {
+  content: "";
+  animation: animate infinite 8s;
+}
+@keyframes animate {
+  0% {
+    content: "ACCA";
+  }
+
+  20% {
+    content: "CA";
+  }
+
+  40% {
+    content: "MATRIC";
+  }
+
+  60% {
+    content: "INTER";
+  }
+  80% {
+    content: "ACCA";
+  }
+  100% {
+    content: "CA";
+  }
+}
 .icon4 {
   font-size: 30px;
   padding-left: 10px;
 }
-p {
+.para1 {
   margin-top: 10px;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  margin-left: 90px;
+}
+.btn {
+  background-color: #fe346e;
+  font-family: "Fredoka One", cursive;
+  color: white;
+  font-size: 18px;
+  transition: 1s;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+.icons {
+  font-size: 35px;
+  margin-bottom: 12px;
+  display: block;
+  border: 3px solid white;
+  margin-left: 18rem;
+  padding: 5px;
+  border-radius: 30px;
+}
+.icons:hover {
+  color: #1a1a38;
+  cursor: pointer;
+  background-color: #1a1a38;
 }

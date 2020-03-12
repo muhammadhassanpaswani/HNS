@@ -72,9 +72,11 @@ const Navbar = params => {
             <h6>
               <GoSignIn className="nav-icons-1 " />
               Sign In{" "}
-              <span className="space">
-                <GoSignOut className="nav-icons-1 " /> Sign Out
-              </span>
+              <Link to="/Sign Up">
+                <span className="space">
+                  <GoSignOut className="nav-icons-1 " /> Sign Up
+                </span>
+              </Link>
             </h6>
           </Link>
         </div>

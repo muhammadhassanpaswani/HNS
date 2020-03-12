@@ -1,17 +1,11 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import Background from "./Components/Background/Background";
-import Main from "./Components/Main/Main";
-import Footer from "./Components/Footer/Footer";
-
+import Home from "./Pages/Home.js";
+import { Router } from "@reach/router";
 function App() {
   return (
-    <div className="App">
-      <Background />
-      <Navbar />
-      <Main />
-      <Footer />
-    </div>
+    <Router>
+      <Home path="/" />
+    </Router>
   );
 }
 
