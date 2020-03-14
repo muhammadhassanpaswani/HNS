@@ -18,36 +18,32 @@
   }
 
   20% {
-    content: "CA";
+    content: " CA";
   }
 
   40% {
-    content: "MATRIC";
+    content: " MATRIC";
   }
 
   60% {
-    content: "INTER";
+    content: " INTER";
   }
   80% {
-    content: "ACCA";
+    content: " ACCA";
   }
   100% {
-    content: "CA";
+    content: " CA";
   }
 }
-.icon4 {
-  font-size: 30px;
-  padding-left: 10px;
-}
+
 .para1 {
   margin-top: 10px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 900;
 }
-.img {
-  width: 100px;
-  height: 100px;
-  margin-left: 90px;
+.img img {
+  width: 600px;
+  height: 400px;
 }
 .btn {
   background-color: #fe346e;
@@ -63,12 +59,18 @@
   margin-bottom: 12px;
   display: block;
   border: 3px solid white;
-  margin-left: 18rem;
+  color: white;
+  margin-left: 24rem;
   padding: 5px;
   border-radius: 30px;
 }
 .icons:hover {
-  color: #1a1a38;
+  color: #ffffff;
   cursor: pointer;
   background-color: #1a1a38;
+}
+.icon4 {
+  color: #fe346e;
+  font-size: 30px;
+  padding-left: 10px;
 }

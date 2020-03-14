@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:900&display=swap");
+.liquid {
+  height: 100vh;
+  background-image: url("../../images/Wave.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+.form {
+  background-color: white;
+  margin-top: 20px;
+}
+.imgcar {
+  width: 700px;
+  height: 600px;
+  position: relative;
+  margin-left: 5rem;
+}
+.btn-Sign {
+  display: flex;
+  justify-content: center;
+  margin-left: 25rem;
+}
+.Signup {
+  background-color: #fe346e;
+  border-radius: 30px;
+  box-shadow: 1px 5px 3px 3px gray;
+  color: white;
+  padding: 10px 30px;
+  font-family: "Fredoka One", cursive;
+  font-weight: 900;
+  transition: 1s;
+  border: 3px solid white;
+}
+.Signup:hover {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  color: white;
+
+  border: 3px solid #fe346e;
+  text-decoration: none;
+}
+.social-login {
+  position: absolute;
+  top: 11rem;
+}
+.icon12 {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 5px;
+  transition: 1s;
+}
+form {
+  margin: 4rem 5rem;
+}
+.icon12:hover {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  cursor: pointer;
+}
+.login {
+  font-family: "Nunito", sans-serif;
+  color: #5f6caf;
+}
+.bold-1 {
+  color: #fe346e;
+}
+.btn-login {
+  margin-top: 1rem;
+  padding: 10px 40px;
+  transition: 1s;
+  width: 80%;
+}
+.btn-login:hover {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  color: white;
+  border: 3px solid #fe346e;
+  text-decoration: none;
+}
+input {
+  border: 3px solid #fe346e;
+  border-radius: 30px;
+  padding: 10px 1rem;
+  width: 80%;
+}
+input:focus {
+  outline: none !important;
+}
+.choice {
+  border: none;
+  text-align: center;
+  border-top: 5px solid #5f6caf;
+  margin-top: 30px;
+  font-family: "Fredoka One", cursive;
+  font-weight: 900;
+  border-radius: 9px;
+  color: #fe346e;
+  padding-top: 5px;
+  width: 80%;
+}
+.fb {
+  margin-top: 0;
+  font-size: 15px;
+}

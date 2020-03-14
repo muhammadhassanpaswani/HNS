@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import image2 from "../../images/logo.png";
-import { FaPlay } from "react-icons/fa";
+import { FaGooglePlay } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="col-md-3 youtube-1 col-sm-12 d-flex align-items-center justify-content-center">
           <div className="youtube d-flex align-items-center text-white mr-5">
             <div className="play d-flex align-items-center justify-content-center">
-              <FaPlay className="icon-23" />
+              <FaGooglePlay className="icon-23" />
               <h5 className="watch">Watch now</h5>
             </div>
           </div>

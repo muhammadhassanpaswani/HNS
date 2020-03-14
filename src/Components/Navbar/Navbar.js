@@ -12,7 +12,9 @@ const Navbar = params => {
         <div className="col-lg-8">
           <nav class="navbar navbar-expand-lg mt-2">
             <Link class="navbar-brand mt-3" to="">
-              <h1>HNS Education</h1>
+              <h1>
+                HNS <span className="red">Education</span>{" "}
+              </h1>
             </Link>
             <button
               class="navbar-toggler"
@@ -67,18 +69,18 @@ const Navbar = params => {
           </nav>
         </div>
         <div className="col-3 log-reg">
-          <Link class="" to="">
-            <br />
-            <h6>
+          <br />
+          <h6>
+            <Link className="" to="/login">
               <GoSignIn className="nav-icons-1 " />
               Sign In{" "}
-              <Link to="/Sign Up">
-                <span className="space">
-                  <GoSignOut className="nav-icons-1 " /> Sign Up
-                </span>
-              </Link>
-            </h6>
-          </Link>
+            </Link>
+            <Link to="/register">
+              <span className="space">
+                <GoSignOut className="nav-icons-1 " /> Sign Up
+              </span>
+            </Link>
+          </h6>
         </div>
       </div>
     </div>

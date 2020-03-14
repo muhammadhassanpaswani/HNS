@@ -2,7 +2,7 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 import { Link } from "@reach/router";
 import "./Main.css";
-import image1 from "../../images/image1.png";
+import image1 from "../../images/download3.svg";
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 const Main = params => {
@@ -23,11 +23,11 @@ const Main = params => {
               <FaStar className="icon4" />
             </div>
             <p className="para1">
-              Lorem ipsum dolor, sit amet{" "}
-              <span className="bold"> adipisicing elit.</span>
-              Voluptate consequuntur illo rem{" "}
-              <span className="bold"> adipisicing elit.</span> fugit laudantium
-              corrupti <span className="bold">tenetur,</span> modi nisi.
+              FREE ONLINE LEARNING For
+              <span className="bold"> Students </span>
+              We Deliver you Best QUALITY Notes of
+              <span className="bold"> Students</span> which is th part of 21
+              Centuary Curriculum. Good Luck Best Wishes For you!!
             </p>
             <Link to="" className="btn">
               Ready For Mocks

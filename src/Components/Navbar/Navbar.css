@@ -1,14 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+
+/* logo */
 .navbar-brand h1 {
   font-size: 40px;
   font-family: "Patua One", cursive;
   color: white;
 }
+
+.red {
+  color: #fe346e;
+}
+/* icons */
 .nav-icons {
   font-size: 25px;
 }
-
+.nav-icons:hover {
+  color: #fe346e;
+}
 .nav-link {
   position: relative;
   transition: 0.5s;
@@ -35,7 +44,7 @@
   width: 80%;
 }
 .nav-link:hover {
-  color: rgb(219, 219, 219);
+  color: white;
 }
 
 .nav-ul {
@@ -50,11 +59,14 @@
 .log-reg h6 {
   font-family: "Fredoka One", cursive;
   margin-left: 7rem;
+  color: white;
   font-size: 18px;
 }
 .space {
   margin-left: 10px;
+  color: white;
 }
 .log-reg a {
   text-decoration: none;
+  color: white;
 }
