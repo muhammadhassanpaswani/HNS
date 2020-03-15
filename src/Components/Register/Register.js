@@ -30,15 +30,15 @@ const Register = () => {
               </h1>
 
               <span className="form">
-                <input type="text" placeholder="Email" className="reg-input" />
+                <input type="text" placeholder="Name" className="reg-input" />
               </span>
               <span className="form ml-2">
-                <input type="text" placeholder="Email" className="reg-input" />
+                <input type="text" placeholder="S/o" className="reg-input" />
               </span>
               <div className="form">
                 <input
-                  type="password"
-                  placeholder="Password"
+                  type="text"
+                  placeholder="Email"
                   className="reg-1-input"
                 />
               </div>
