@@ -16,6 +16,9 @@ const Footer = () => {
         <div className="col-md-3 youtube-1 col-sm-12 d-flex align-items-center justify-content-center">
           <Youtube />
         </div>
+        <div className="col-sm-12">
+          <h5 className="license">Copy right contained</h5>
+        </div>
       </div>
     </div>
   );

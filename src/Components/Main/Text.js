@@ -22,10 +22,10 @@ const Text = () => {
         <span className="bold"> Students</span> which is th part of 21 Centuary
         Curriculum. Good Luck Best Wishes For you!!
       </p>
-      <Link to="" className="btn">
+      <Link to="" className="btn btn-0">
         Ready For Mocks
       </Link>
-      <Link to="" className="btn btn-1 ml-2">
+      <Link to="" className="btn btn-1">
         Ready For Mocks
       </Link>
     </div>

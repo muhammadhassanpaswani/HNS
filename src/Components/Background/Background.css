@@ -46,9 +46,15 @@
 }
 @media screen and (max-width: 740px) {
   .background {
-    height: 700px;
+    height: 850px;
   }
   .background-red {
     opacity: 0.7;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg-text h1 {
+    margin-top: 18rem;
+    font-size: 12em;
   }
 }
