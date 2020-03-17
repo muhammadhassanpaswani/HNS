@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Background from "../Components/Background/Background";
 
-const Home = params => {
+const AboutUs = params => {
   return (
     <div>
       <Background />
@@ -11,4 +11,4 @@ const Home = params => {
   );
 };
 
-export default Home;
+export default AboutUs;

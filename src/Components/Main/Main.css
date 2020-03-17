@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Itim&display=swap");
 .title {
   margin-top: 4.5rem;
   font-family: "Fredoka One", cursive;
@@ -8,7 +9,6 @@
 }
 .bold {
   color: #fe346e;
-  font-weight: 900;
 }
 .bold::before {
   content: "";
@@ -43,8 +43,7 @@
 
 .para1 {
   margin-top: 13px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
+  font-family: "Itim", cursive;
 }
 .img img {
   width: 650px;

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900&display=swap");
+.btn-12 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.img-card {
+  width: 90px;
+  height: 90px;
+  position: relative;
+
+  margin-left: 6rem;
+  padding-top: 0.4rem;
+  border-radius: 30px;
+}
+.card-title {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.card {
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+  border: 4px solid white;
+}
+.card:hover {
+  opacity: 1;
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}

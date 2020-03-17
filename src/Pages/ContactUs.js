@@ -1,14 +1,16 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Background from "../Components/Background/Background";
+import Contactme from "../Components/Contactme/Contactme";
 
-const Home = params => {
+const ContactUs = params => {
   return (
     <div>
       <Background />
       <Navbar />
+      <Contactme />
     </div>
   );
 };
 
-export default Home;
+export default ContactUs;

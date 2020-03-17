@@ -16,11 +16,11 @@ const Text = () => {
         <FaStar className="icon4" />
       </div>
       <p className="para1">
-        FREE ONLINE LEARNING For
+        Free Online Learning For
         <span className="bold"> Students </span>
-        We Deliver you Best QUALITY Notes of
+        We Deliver you Best Quality Notes of
         <span className="bold"> Students</span> which is th part of 21 Centuary
-        Curriculum. Good Luck Best Wishes For you!!
+        Curriculum.Good Luck Best Wishes For you!!
       </p>
       <Link to="" className="btn btn-0">
         Ready For Mocks
