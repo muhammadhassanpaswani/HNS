@@ -7,8 +7,8 @@ import Youtube from "./youtube";
 const Footer = () => {
   return (
     <div className="container-fluid footer">
-      <div className="row">
-        <div className="col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+      <div className="row animated fadeInLeft">
+        <div className="col-md-6 col-sm-12 d-flex align-items-center pl-5">
           <Profile />
         </div>
 

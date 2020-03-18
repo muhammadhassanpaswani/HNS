@@ -10,12 +10,12 @@ const Navbar = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-lg-8">
-          <nav class="navbar navbar-expand-lg mt-2 ">
+          <nav class="navbar navbar-expand-lg mt-2 animated fadeInDown">
             <Logo />
             <Navigation />
           </nav>
         </div>
-        <div className="col-lg-3  ">
+        <div className="col-lg-3 animated fadeInDown ">
           <Loginbtn />
         </div>
       </div>

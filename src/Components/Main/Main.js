@@ -7,14 +7,14 @@ import SocialIcon from "./SocialIcon.js";
 const Main = () => {
   return (
     <div className="container main">
-      <div className="row">
-        <div className="col-lg-6 col-md-12 col-sm-12">
+      <div className="row animated zoomInUp">
+        <div className="col-lg-6 col-md-12 col-sm-12 ">
           <Text />
         </div>
         <div className="col-lg-3">
           <Image />
         </div>
-        <div className="col-md-3  d-flex align-items-center justify-content-center">
+        <div className="col-md-3  d-flex align-items-center justify-content-center ">
           <SocialIcon />
         </div>
       </div>

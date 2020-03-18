@@ -3,6 +3,7 @@ import "./Login.css";
 import imageCar3 from "../../images/download 3.svg";
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+
 import { Link } from "@reach/router";
 const Login = () => {
   return (
@@ -20,12 +21,12 @@ const Login = () => {
           </div>
           <div className="col-5 form">
             <div className="btn-Sign">
-              <Link to="/register" className="Signup">
+              <Link to="/register" className="Signup ">
                 Sign Up
               </Link>
             </div>
-            <form action="">
-              <h1 className="login">
+            <form action="" className="">
+              <h1 className="login ">
                 Ready to <span className="bold-1">Sign In</span>
               </h1>
 

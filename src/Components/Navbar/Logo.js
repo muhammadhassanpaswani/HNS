@@ -3,7 +3,7 @@ import { Link } from "@reach/router";
 const Logo = params => {
   return (
     <React.Fragment>
-      <Link class="navbar-brand mt-3" to="">
+      <Link class="navbar-brand mt-3 animated fadeInDown" to="/">
         <h1>
           HNS <span className="red">Education</span>{" "}
         </h1>

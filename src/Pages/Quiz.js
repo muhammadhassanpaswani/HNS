@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
-import Background from "../Components/Background/Background";
+import BackgroundQuiz from "../Components/BackgroundQuiz/BackgroundQuiz.js";
 import QuizSec from "../Components/QuizSec/QuizSec";
 import images1 from "../images/i1.png";
 const QuizSubject = [
@@ -50,8 +50,9 @@ const QuizSubject = [
 const Quiz = params => {
   return (
     <div>
-      <Background />
+      <BackgroundQuiz />
       <Navbar />
+
       <div className="container">
         <div className="row mt-5">
           {QuizSubject.map(subject => (
