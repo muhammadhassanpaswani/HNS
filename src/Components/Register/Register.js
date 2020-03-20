@@ -10,8 +10,12 @@ const Register = () => {
       <div className="panel">
         <div className="row">
           <div className="col-7 liquid">
-            <img src={imageCar3} alt="" className="img-3" />
-            <div className="social-login">
+            <img
+              src={imageCar3}
+              alt=""
+              className="img-3  animated fadeInRight"
+            />
+            <div className="social-login  animated fadeInUp">
               <FaFacebookF className="icon12" />
               <FaTwitter className="icon12" />
               <FaYoutube className="icon12" />
@@ -19,12 +23,12 @@ const Register = () => {
             </div>
           </div>
           <div className="col-5 form">
-            <div className="btn-Sign">
+            <div className="btn-Sign  animated fadeInUp">
               <Link to="/login" className="Signup">
                 Sign In
               </Link>
             </div>
-            <form action="" className="form-reg">
+            <form action="" className="form-reg  animated fadeInLeft">
               <h1 className="login reg">
                 Ready to <span className="bold-1">Sign Up</span>
               </h1>

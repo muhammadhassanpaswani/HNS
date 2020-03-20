@@ -1,0 +1,12 @@
+.QuizAll {
+  background-image: url("../../images/i3.png");
+  background-size: cover;
+  height: 100vh;
+}
+.qhead {
+  font-family: "Fredoka One", cursive;
+  color: white;
+  margin-top: 20%;
+  font-size: 60px;
+  margin-left: 20%;
+}
