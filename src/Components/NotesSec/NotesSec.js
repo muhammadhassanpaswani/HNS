@@ -1,14 +1,14 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import image3 from "../../images/acca.png";
-import "./QuizSec.css";
-const QuizSec = ({ subject }) => {
+import "./Notes.css";
+const NotesSec = ({ subject }) => {
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col text-center">
           <Card
-            className="card mt-5 animated rollIn"
+            className="card mt-5 animated zoomInLeft"
             style={{ width: "18rem" }}
           >
             <Card.Img variant="top" className="img-card" src={image3} />
@@ -23,4 +23,4 @@ const QuizSec = ({ subject }) => {
     </div>
   );
 };
-export default QuizSec;
+export default NotesSec;

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap");
+.heading {
+  line-height: 0.5;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.heading span {
+  display: inline-block;
+  position: relative;
+}
+.heading span:before,
+.heading span:after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  top: 5px;
+  width: 100px;
+}
+.heading span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.heading span:after {
+  left: 100%;
+  margin-left: 15px;
+}

@@ -82,6 +82,8 @@ input {
   border: 3px solid #fe346e;
   border-radius: 30px;
   padding: 10px 1rem;
+  font-family: "Fredoka One", cursive;
+  color: #fe346e;
   width: 80%;
 }
 input:focus {
