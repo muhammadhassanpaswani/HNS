@@ -13,14 +13,17 @@ const QuizAll = params => {
               <Logo />
               <h1 className="qhead ">
                 <span className="red">READY</span> FOR
-                <span className="red"> QUIZ</span>
+                <span className="red"> QUIZ</span> ..
               </h1>
               <p className="qpara text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                quam quibusdam nulla obcaecati quia porro id laudantium quo.
-                Quisquam aspernatur veritatis, officiis eum molestias
-                consequatur. Incidunt aspernatur reprehenderit corrupti
-                repellat.
+                Lorem ipsum dolor sit amet{" "}
+                <span className="red">consectetur adipisicing </span>elit. Vero,
+                quam quibusdam nulla obcaecati{" "}
+                <span className="red">quia porro id</span> laudantium quo.
+                Quisquam aspernatur veritatis,{" "}
+                <span className="red">officiis eum </span>molestias consequatur.
+                Incidunt aspernatur{" "}
+                <span className="red">reprehenderit corrupti</span> repellat.
               </p>
               <div className="d-flex justify-content-center ">
                 <Link to="/register" className="Signup pl-5 pr-5  ">
