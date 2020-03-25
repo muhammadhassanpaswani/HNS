@@ -3,7 +3,7 @@ import "./QuizAll.css";
 import Logo from "../Navbar/Logo.js";
 import Loginbtn from "../Navbar/Loginbtn";
 import { Link } from "@reach/router";
-const QuizAll = params => {
+const QuizAll = (params) => {
   return (
     <div className="QuizAll ">
       <div className="container-fluid">
