@@ -6,6 +6,7 @@ import ContactUs from "./Pages/ContactUs.js";
 import AboutUs from "./Pages/AboutUs.js";
 import Login from "./Components/Login/Login.js";
 import QuizAll from "./Components/QuizAll/QuizAll.js";
+import NotesAll from "./Components/NotesAll/NotesAll.js";
 import { Router } from "@reach/router";
 import Register from "./Components/Register/Register.js";
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <AboutUs path="/aboutus" />
       <ContactUs path="/contactus" />
       <QuizAll path="/HNSQUIZ" />
+      <NotesAll path="/HNSNOTES" />
     </Router>
   );
 }

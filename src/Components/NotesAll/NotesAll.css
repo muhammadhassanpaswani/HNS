@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css?family=McLaren&display=swap");
+.NotesAll {
+  background-image: url("../../images/notes.png");
+  background-size: cover;
+  height: 100vh;
+}
+.blue {
+  color: #1c3073;
+}
+.LogoNotes {
+  color: #1c3073;
+  font-family: "Baloo 2", cursive;
+  font-weight: 900;
+  font-size: 30px;
+}
+.LogoNotes:hover {
+  text-decoration: none;
+}
+.Logonote {
+  font-size: 40px;
+  font-family: "Patua One", cursive;
+  color: white;
+}
+.noteshead {
+  margin-top: 30%;
+  font-family: "Bungee Inline", cursive;
+}
+.parahead {
+  color: #1c3073;
+  font-size: 18px;
+  font-family: "McLaren", cursive;
+}
+.btn-notes {
+  background-color: #1c3073;
+}
+.btn-notes:hover {
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}

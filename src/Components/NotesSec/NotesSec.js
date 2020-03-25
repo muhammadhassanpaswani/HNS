@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import image3 from "../../images/acca.png";
+import { Link } from "@reach/router";
 import "./Notes.css";
 const NotesSec = ({ subject }) => {
   return (
@@ -15,7 +16,9 @@ const NotesSec = ({ subject }) => {
             <Card.Body>
               <Card.Title className="card-title">{subject.title}</Card.Title>
               <Card.Text>{subject.para}</Card.Text>
-              <Button variant="btn-12">{subject.btn}</Button>
+              <Link to="/HNSNOTES" className="">
+                <Button variant="btn-12">{subject.btn}</Button>
+              </Link>
             </Card.Body>
           </Card>
         </div>
