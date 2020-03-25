@@ -1,6 +1,6 @@
 import React from "react";
 import image2 from "../../images/logo.png";
-const Profile = params => {
+const Profile = (params) => {
   return (
     <div className="footer-section1 d-flex align-items-round justify-content-end">
       <div className="created">
