@@ -1,6 +1,9 @@
 import React from "react";
-import { FaStar } from "react-icons/fa";
+//Files
+import Stars from "./Stars.js";
+//Link
 import { Link } from "@reach/router";
+//Text function
 const Text = () => {
   return (
     <div className="maintext text-white">
@@ -8,25 +11,19 @@ const Text = () => {
         Mocks & Test <br />
         For <span className="bold "></span>
       </h1>
-      <div className="star-icon ">
-        <FaStar className="icon4" />
-        <FaStar className="icon4" />
-        <FaStar className="icon4" />
-        <FaStar className="icon4" />
-        <FaStar className="icon4" />
-      </div>
+      <Stars />
       <p className="para1 ">
         Free Online Learning For
         <span className="bold"> Students </span>
         We Deliver you Best Quality Notes of
-        <span className="bold"> Students</span> which is th part of 21 Centuary
+        <span className="bold"> Students</span> which is the part of 21 Centuary
         Curriculum.Good Luck Best Wishes For you!!
       </p>
-      <Link to="" className="btn btn-0 ">
+      <Link to="/quiz" className="btn btn-0 ">
         Ready For Mocks
       </Link>
       <Link to="" className="btn btn-1 ">
-        Ready For Mocks
+        Ready For Notes
       </Link>
     </div>
   );

@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 const Image = () => {
   return (
-    <div className="img">
+    <div className="">
       <div className="social-icons">
         <FaFacebookF className="icons " />
         <FaTwitter className="icons " />

@@ -43,12 +43,9 @@
 
 .para1 {
   margin-top: 13px;
-  font-family: "Itim", cursive;
+  font-family: "McLaren", cursive;
 }
-.img img {
-  width: 650px;
-  height: 450px;
-}
+
 .btn {
   background-color: #fe346e;
   font-family: "Fredoka One", cursive;
@@ -71,7 +68,8 @@
 .icons:hover {
   color: #ffffff;
   cursor: pointer;
-  background-color: #1a1a38;
+
+  background-color: #1e1e51;
 }
 .icon4 {
   color: #fe346e;
@@ -86,7 +84,7 @@
   .bold {
     color: #fe346e;
   }
-  .icon4 {
+  .star-icon.icon4 {
     margin-left: 0;
     color: white;
   }

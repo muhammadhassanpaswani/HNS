@@ -1,6 +1,9 @@
 import React from "react";
+//Icons
 import { GoSignIn, GoSignOut } from "react-icons/go";
+//Link
 import { Link } from "@reach/router";
+//Loginbtn
 const Loginbtn = () => {
   return (
     <div className="log-reg ">

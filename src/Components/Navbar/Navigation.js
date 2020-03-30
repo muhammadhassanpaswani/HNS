@@ -1,8 +1,11 @@
 import React from "react";
+//Icons
 import { FaHome, FaChessQueen } from "react-icons/fa";
 import { IoIosPaper, IoMdContact } from "react-icons/io";
-import { Link } from "@reach/router";
 import { GoBriefcase } from "react-icons/go";
+//Link
+import { Link } from "@reach/router";
+//Navigation function
 const Navigation = () => {
   return (
     <div class="collapse navbar-collapse" id="navbarNav">

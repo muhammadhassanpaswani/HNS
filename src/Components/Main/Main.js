@@ -1,9 +1,12 @@
 import React from "react";
+//files
 import Image from "./Image.js";
 import Text from "./Text.js";
+//css
 import "./Main.css";
+//Icons
 import SocialIcon from "./SocialIcon.js";
-
+//Main function
 const Main = () => {
   return (
     <div className="container main">
@@ -14,7 +17,7 @@ const Main = () => {
         <div className="col-lg-3">
           <Image />
         </div>
-        <div className="col-md-3  d-flex align-items-center justify-content-center ">
+        <div className="col-lg-3  d-flex align-items-center justify-content-center ">
           <SocialIcon />
         </div>
       </div>

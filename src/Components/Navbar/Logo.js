@@ -1,6 +1,8 @@
 import React from "react";
+//Link
 import { Link } from "@reach/router";
-const Logo = params => {
+//Logo function
+const Logo = () => {
   return (
     <React.Fragment>
       <Link class="navbar-brand mt-3 animated fadeInDown" to="/">

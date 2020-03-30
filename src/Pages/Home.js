@@ -1,9 +1,11 @@
 import React from "react";
+//Components
 import Navbar from "../Components/Navbar/Navbar";
 import Background from "../Components/Background/Background";
 import Main from "../Components/Main/Main";
 import Footer from "../Components/Footer/Footer";
-const Home = params => {
+//Home Function
+const Home = () => {
   return (
     <div>
       <Background />
